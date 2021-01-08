@@ -12,6 +12,8 @@ function addNum(e) {
     display.innerText = num;
     if (num >= 0) {
         display.style.color = "black"
+    } else {
+        display.style.color = "red"
     };
 }
 
@@ -21,6 +23,8 @@ function subtractNum(e) {
     display.innerText = num;
     if (num < 0) {
         display.style.color = "red"
+    } else {
+        display.style.color = "black"
     };
 }
 
